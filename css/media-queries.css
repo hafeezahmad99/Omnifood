@@ -1,0 +1,348 @@
+/* 1200px */
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .section-hero .container {
+    column-gap: 4.8rem;
+  }
+
+  .hero-content-title {
+    font-size: 4.4rem;
+  }
+
+  .pricing-offers-list {
+    line-height: 1.6;
+  }
+}
+
+/* 992px */
+
+@media (max-width: 62em) {
+  .main-nav-list {
+    /* Reducing gap between list items */
+    gap: 2rem;
+  }
+
+  .section-meals .container.meal-cards {
+    column-gap: 4.8rem;
+  }
+
+  .cta-form {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* 930 px */
+
+@media (max-width: 58.125em) {
+  html {
+    font-size: 50%;
+  }
+
+  .section-hero .container {
+    grid-template-columns: 1fr;
+    row-gap: 4.8rem;
+  }
+
+  .hero-content {
+    text-align: center;
+  }
+
+  .cta-buttons-in-hero {
+    justify-content: center;
+  }
+
+  .customer-meals {
+    justify-content: center;
+  }
+
+  .hero-image {
+    justify-self: center;
+  }
+
+  .hero-image {
+    width: 50%;
+  }
+
+  .featured-companies-logos img {
+    height: 2.4rem;
+  }
+
+  .how-subtitle {
+    font-size: 3.6rem;
+  }
+
+  .section-meals .container.meal-cards {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 6.4rem;
+    column-gap: 3.6rem;
+  }
+
+  .meal-card-3-diet {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-self: center;
+  }
+
+  .step-no {
+    font-size: 7.4rem;
+  }
+
+  .step-title {
+    font-size: 2.4rem;
+  }
+
+  .section-meals .container.about-omnifood-meals .subtitle {
+    font-size: 3.6rem;
+  }
+
+  .about-meal-text {
+    padding: 2.4rem 3.2rem;
+  }
+
+  .meal-tag-1,
+  .meal-tag-2,
+  .meal-tag-3 {
+    font-size: 1.2rem;
+  }
+
+  .diet-title {
+    font-size: 2.4rem;
+  }
+
+  .meal-title {
+    font-size: 2.4rem;
+  }
+
+  .testimonials .subtitle {
+    font-size: 3.6rem;
+  }
+
+  .section-testimonials .container {
+    grid-template-columns: 1fr;
+    row-gap: 4.8rem;
+  }
+
+  .section-testimonials .container .gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .pricing-subtitle {
+    font-size: 3.6rem;
+  }
+
+  .pricing-card-1,
+  .pricing-card-2 {
+    width: 90%;
+  }
+}
+
+/* 768px */
+
+@media (max-width: 48em) {
+  /* Removing Navbar from container of header */
+  .main-nav {
+    display: none;
+  }
+
+  /* Making mobile navbar appear*/
+  .mobile-nav-button {
+    display: block;
+  }
+
+  .section-testimonials .container .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .section-pricing .container.pricing-cards {
+    grid-template-columns: 1fr;
+    row-gap: 4.8rem;
+  }
+
+  .pricing-card-1,
+  .pricing-card-2 {
+    width: 70%;
+  }
+
+  .pricing-card-1,
+  .pricing-card-2 {
+    justify-self: center;
+  }
+
+  .section-pricing .container.features {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 6.4rem;
+  }
+
+  .section-sign-up .container {
+    grid-template-columns: 1fr;
+  }
+
+  /* 
+   Removing sign up image box.
+   No image should be displayed below this size(on tablet)
+   till we reach mobile size(576px next query) .
+   */
+  .sign-up-img {
+    display: none;
+  }
+
+  .cta {
+    border-radius: 11px;
+  }
+
+  .footer .container {
+    grid-template-columns: repeat(6, 1fr);
+    row-gap: 6.8rem;
+  }
+
+  .footer .account,
+  .footer .company,
+  .footer .resources {
+    grid-column: span 2;
+  }
+
+  .footer .logos,
+  .footer .contact-us {
+    grid-column: span 3;
+  }
+
+  .footer .account {
+    order: -1;
+  }
+
+  .footer .logos {
+    order: 1;
+  }
+
+  .footer .contact-us {
+    order: 2;
+  }
+
+  /* .main-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: whitesmoke;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+
+  /* .main-nav-list {
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+  } */
+}
+
+/* 576px */
+
+@media (max-width: 36em) {
+  .hero-content-btn-1:link,
+  .hero-content-btn-2:link {
+    padding: 2rem 1.6rem;
+  }
+
+  .customer-meals {
+    flex-wrap: wrap;
+  }
+
+  .featured-companies-logos img {
+    height: 1.8rem;
+  }
+
+  .section-how-it-works .container.steps-on-app {
+    grid-template-columns: 1fr;
+  }
+
+  .step-1-text {
+    order: 1;
+  }
+  .step-1-image {
+    order: 2;
+  }
+  .step-2-text {
+    order: 3;
+  }
+  .step-2-image {
+    order: 4;
+  }
+  .step-3-text {
+    order: 5;
+  }
+  .step-3-image {
+    order: 6;
+  }
+
+  .section-meals .container.meal-cards {
+    grid-template-columns: 1fr;
+  }
+
+  /* 
+  Meals Card 3 was occupying 2 columns at 768px now making it to
+  span 1 column back but keeping it justify self center property
+  as it is
+  */
+  .meal-card-3-diet {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  /* Bringing about meal text in meal cards 1 and 2 to the center */
+  .meal-card-1,
+  .meal-card-2 {
+    /* Display */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonials .reviews {
+    grid-template-columns: 1fr;
+  }
+
+  .section-testimonials .container .gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .pricing-card-1,
+  .pricing-card-2 {
+    width: 100%;
+  }
+
+  .section-pricing .container.features {
+    grid-template-columns: 1fr;
+  }
+
+  /* Bringing image box back on mobile */
+  .sign-up-img {
+    display: block;
+  }
+
+  /* Taking off the desktop image */
+  .sign-up-img .cta-desktop-image {
+    display: none;
+  }
+
+  /* Showing mobile image */
+  .sign-up-img .cta-mobile-image {
+    display: inline-block;
+    order: -1;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+  }
+
+  .cta {
+    order: 1;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 11px;
+  }
+}
